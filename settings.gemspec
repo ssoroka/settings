@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Settings::VERSION
   gem.authors       = ["Steven Soroka"]
   gem.email         = ["ssoroka78@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Gem stores app settings}
+  gem.summary       = %q{stores app settings in a way I like}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
