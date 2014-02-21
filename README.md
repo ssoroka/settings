@@ -1,12 +1,17 @@
 # Settings
 
-TODO: Write a gem description
+The easist settings management for a rails project possible.
+
+edit config/settings.yml:
+
+    development:
+      your_settings_here: ok?
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'settings'
+    gem 'settings', git: 'git@github.com:ssoroka/settings.git', require: 'settings'
 
 And then execute:
 
@@ -18,7 +23,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
 
 ## Contributing
 
